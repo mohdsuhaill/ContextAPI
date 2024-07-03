@@ -1,0 +1,11 @@
+.img {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
